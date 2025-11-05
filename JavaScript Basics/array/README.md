@@ -1,0 +1,18 @@
+# Introduction
+Until now, you've been storing individual pieces of data, such as numbers or strings.
+That works fine when you have just one or two pieces of data.
+But what if you need to keep track of a list of items, like fruits, to buy? You might initially think of doing this:
+<pre>
+let fruit1 = "Apple";
+let fruit2 = "Banana";
+let fruit3 = "Orange";
+let fruit4 = "Blueberry";
+let fruit5 = "Cherry";
+</pre>
+
+Not only is this inefficient but imagine if you had 100 fruits! Would you create 100 variables? Of course not!
+Wouldn't it be much better to keep all these related items in one single list—just like a proper shopping list?
+
+That's where arrays come in.
+In this chapter, you'll learn how to group and organize multiple values into a single variable using arrays.
+Let's start by creating our first array.
